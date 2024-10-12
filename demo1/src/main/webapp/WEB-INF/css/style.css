@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: large;
+}
+
+body{
+    background-color: darkcyan;
+    opacity: 0.7;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
