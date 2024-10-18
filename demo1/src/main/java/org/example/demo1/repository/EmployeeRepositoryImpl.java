@@ -11,7 +11,6 @@ public class EmployeeRepositoryImpl implements EmployeeRepository {
     private EntityManager entityManager;
 
     public EmployeeRepositoryImpl() {
-        // Create EntityManagerFactory for the persistence unit
         this.entityManagerFactory = Persistence.createEntityManagerFactory("demo1");
         this.entityManager = entityManagerFactory.createEntityManager();
     }

@@ -1,23 +1,78 @@
-*{
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navbar nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    font-family: Arial;
-    font-size: large;
+    overflow: hidden;
+    text-align: center;
 }
 
-body{
-    background-color: darkcyan;
-    opacity: 0.7;
+.navbar nav ul li {
+    display: inline;
+    margin-right: 15px;
 }
 
-nav{
-    display: flex;
+.navbar nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 4px;
 }
 
-ul{
-    justify-content: center;
-    align-items: center;
+.navbar nav ul li a:hover {
+    background-color: #555;
 }
 
+/* Formulaire */
+.formulaire {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
 
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
 
+input[type="text"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

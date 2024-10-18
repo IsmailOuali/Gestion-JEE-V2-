@@ -20,7 +20,7 @@ public class Main {
         Employee employee = new Employee("Amine Chaguer", "2003-07-12", "123 Agadir St", "H992012", "2025-01-01", "Developer", 90000, 5);
         entityManager.persist(employee);
 
-        entityManager.getTransaction().commit();
+            entityManager.getTransaction().commit();
 
         entityManager.close();
         entityManagerFactory.close();

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Context docBase="C:\Users\ycode\Desktop\Brief\gestion">
+<Context docBase="C:\Users\ycode\Desktop\bri\demo1">
   <Resources cacheMaxSize="10240">
     <PostResources base="C:/Users/ycode/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.2.0-M2/jakarta.persistence-api-3.2.0-M2.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.persistence-api-3.2.0-M2.jar"/>
     <PostResources base="C:/Users/ycode/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar"/>
